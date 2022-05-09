@@ -1,0 +1,46 @@
+{
+  "name": "quasar2-firebase-auth",
+  "version": "0.0.1",
+  "description": "Quasar 2.0 integration with firebase auth and storage (user profile/photo upload/login/register/password reset). Boilerplate / project starter.",
+  "productName": "OnlyBtcFans",
+  "author": "Wiktor Cieślak <wiktorcie@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "QENV=DEV quasar dev",
+    "dev:win": "cross-env QENV=DEV quasar dev",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.2",
+    "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
+    "firebase": "^8.9.1",
+    "quasar": "^2.2.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "3.0.2",
+    "uuid": "^8.3.2",
+    "vuex": "^4.0.1",
+    "vuex-persistedstate": "^4.1.0",
+    "vuexfire": "^3.2.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
